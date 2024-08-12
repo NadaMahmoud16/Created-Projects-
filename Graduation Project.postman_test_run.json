@@ -1,0 +1,494 @@
+{
+	"id": "beb6d332-3f9b-47af-b3fe-d2dce599558a",
+	"name": "Graduation Project",
+	"timestamp": "2024-07-24T00:07:42.021Z",
+	"collection_id": "36173658-c0ecef9c-1e8e-491a-a768-b31e082ae587",
+	"folder_id": 0,
+	"environment_id": "36173658-fc4e955a-a6fe-47ae-a197-879cd4bdd3f0",
+	"totalPass": 110,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-07-24T00:07:25.071Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "0b500e9e-1d3a-4799-9b54-61c978adc584",
+			"name": "Create",
+			"url": "https://api.trello.com/1/boards/?name=orange&key=8ffe2e40c7018fcde549958faa4308f4&token=ATTA9a882597b314af2afaad0594a02db48a355ac26036ebda9e4ffcd0206b2bf3a6D1599FDE&desc=This board color is orange&prefs_background=orange",
+			"time": 483,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verfiy that Status code is 200": true,
+				"Verify that Response time is less than 1000ms": true,
+				"Verify that board name is orange": true,
+				"Verify that board desc is This board color is orange": true,
+				"Verify that the closed attribute is false": true,
+				"Verify that the pinned attribute is false": true,
+				"Verify that the background color is orange": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Verfiy that Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that board name is orange": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that board desc is This board color is orange": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the closed attribute is false": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the pinned attribute is false": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the background color is orange": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				416,
+				594,
+				560,
+				438,
+				483
+			],
+			"allTests": [
+				{
+					"Verfiy that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that board name is orange": true,
+					"Verify that board desc is This board color is orange": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Verify that the background color is orange": true,
+					"Successful POST request": true
+				},
+				{
+					"Verfiy that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that board name is orange": true,
+					"Verify that board desc is This board color is orange": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Verify that the background color is orange": true,
+					"Successful POST request": true
+				},
+				{
+					"Verfiy that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that board name is orange": true,
+					"Verify that board desc is This board color is orange": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Verify that the background color is orange": true,
+					"Successful POST request": true
+				},
+				{
+					"Verfiy that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that board name is orange": true,
+					"Verify that board desc is This board color is orange": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Verify that the background color is orange": true,
+					"Successful POST request": true
+				},
+				{
+					"Verfiy that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that board name is orange": true,
+					"Verify that board desc is This board color is orange": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Verify that the background color is orange": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "bc543457-7704-4bd8-bc8d-9cea9b59b2e8",
+			"name": "Update",
+			"url": "https://api.trello.com/1/boards/66a045cb2db7e0935e5a738d?key=8ffe2e40c7018fcde549958faa4308f4&token=ATTA9a882597b314af2afaad0594a02db48a355ac26036ebda9e4ffcd0206b2bf3a6D1599FDE&boardID=66a045cb2db7e0935e5a738d&name=orange8&desc=board name was orange and updated to orange8",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify that Status code is 200": true,
+				"Verify that Response time is less than 1000ms": true,
+				"Verify that the updated board name is orange8": true,
+				"Verify that board desc is board name was orange and updated to orange8": true,
+				"Verify that the closed attribute is false": true,
+				"Verify that the pinned attribute is false": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Verify that Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange42": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange42": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the closed attribute is false": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the pinned attribute is false": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange90": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange90": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange8": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				294,
+				514,
+				556,
+				354,
+				322
+			],
+			"allTests": [
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange42": true,
+					"Verify that board desc is board name was orange and updated to orange42": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange90": true,
+					"Verify that board desc is board name was orange and updated to orange90": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange32": true,
+					"Verify that board desc is board name was orange and updated to orange32": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange20": true,
+					"Verify that board desc is board name was orange and updated to orange20": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange8": true,
+					"Verify that board desc is board name was orange and updated to orange8": true,
+					"Verify that the closed attribute is false": true,
+					"Verify that the pinned attribute is false": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "1f6685a4-fa86-491b-8d2a-0e00ca4d3fb3",
+			"name": "Read",
+			"url": "https://api.trello.com/1/boards/66a045cb2db7e0935e5a738d?key=8ffe2e40c7018fcde549958faa4308f4&token=ATTA9a882597b314af2afaad0594a02db48a355ac26036ebda9e4ffcd0206b2bf3a6D1599FDE",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify that Status code is 200": true,
+				"Verify that Response time is less than 1000ms": true,
+				"Verify that the updated board name is orange8": true,
+				"Verify that board desc is board name was orange and updated to orange8": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Verify that Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange42": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange42": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange90": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange90": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that the updated board name is orange8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that board desc is board name was orange and updated to orange8": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				333,
+				386,
+				244,
+				235,
+				234
+			],
+			"allTests": [
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange42": true,
+					"Verify that board desc is board name was orange and updated to orange42": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange90": true,
+					"Verify that board desc is board name was orange and updated to orange90": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange32": true,
+					"Verify that board desc is board name was orange and updated to orange32": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange20": true,
+					"Verify that board desc is board name was orange and updated to orange20": true,
+					"Successful POST request": true
+				},
+				{
+					"Verify that Status code is 200": true,
+					"Verify that Response time is less than 1000ms": true,
+					"Verify that the updated board name is orange8": true,
+					"Verify that board desc is board name was orange and updated to orange8": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "8fb5f55d-910e-4553-9bc5-0045b2b81f5b",
+			"name": "Delet",
+			"url": "https://api.trello.com/1/boards/66a045cb2db7e0935e5a738d?key=8ffe2e40c7018fcde549958faa4308f4&token=ATTA9a882597b314af2afaad0594a02db48a355ac26036ebda9e4ffcd0206b2bf3a6D1599FDE",
+			"time": 1289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify that the Status code is 200": true,
+				"Verify that the Response time is less than 1000ms": false,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Verify that the Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Verify that the Response time is less than 1000ms": {
+					"pass": 0,
+					"fail": 5
+				},
+				"Successful POST request": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				1124,
+				1297,
+				1439,
+				1295,
+				1289
+			],
+			"allTests": [
+				{
+					"Verify that the Status code is 200": true,
+					"Verify that the Response time is less than 1000ms": false,
+					"Successful POST request": true
+				},
+				{
+					"Verify that the Status code is 200": true,
+					"Verify that the Response time is less than 1000ms": false,
+					"Successful POST request": true
+				},
+				{
+					"Verify that the Status code is 200": true,
+					"Verify that the Response time is less than 1000ms": false,
+					"Successful POST request": true
+				},
+				{
+					"Verify that the Status code is 200": true,
+					"Verify that the Response time is less than 1000ms": false,
+					"Successful POST request": true
+				},
+				{
+					"Verify that the Status code is 200": true,
+					"Verify that the Response time is less than 1000ms": false,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "553f36c4-3537-4da7-8cbe-8a47f1225342",
+			"name": "Create ListOne",
+			"url": "https://api.trello.com/1/boards/66a045cb2db7e0935e5a738d/lists?key=8ffe2e40c7018fcde549958faa4308f4&token=ATTA9a882597b314af2afaad0594a02db48a355ac26036ebda9e4ffcd0206b2bf3a6D1599FDE&name=ListOne",
+			"time": 234,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				300,
+				222,
+				220,
+				230,
+				234
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 13613,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b500e9e-1d3a-4799-9b54-61c978adc584",
+				"method": "POST"
+			},
+			{
+				"id": "bc543457-7704-4bd8-bc8d-9cea9b59b2e8",
+				"method": "PUT"
+			},
+			{
+				"id": "1f6685a4-fa86-491b-8d2a-0e00ca4d3fb3",
+				"method": "GET"
+			},
+			{
+				"id": "8fb5f55d-910e-4553-9bc5-0045b2b81f5b",
+				"method": "DELETE"
+			},
+			{
+				"id": "553f36c4-3537-4da7-8cbe-8a47f1225342",
+				"method": "POST"
+			}
+		]
+	}
+}
